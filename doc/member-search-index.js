@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.apple.employee.search.dao","c":"EmployeeDao","l":"fetchEmployeeById(Long)","url":"fetchEmployeeById(java.lang.Long)"},{"p":"com.apple.employee.search.dao","c":"EmployeeDao","l":"fetchEmployees()"}]

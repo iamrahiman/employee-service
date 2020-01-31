@@ -1,0 +1,288 @@
+2020-01-10 14:37:30,890 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 31174 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 14:37:30,894 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 14:37:30,894 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:37:32,344 INFO com.apple.employee.search.EmployeeSearchApplication [main] Started EmployeeSearchApplication in 1.745 seconds (JVM running for 2.96)
+2020-01-10 14:38:15,209 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.controller.EmployeeSearchController.fetchemp(): arguments: []
+2020-01-10 14:38:15,230 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees(): arguments: []
+2020-01-10 14:38:15,233 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees(): arguments: []
+2020-01-10 14:38:15,237 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.util.FileUtils.getFileContent(String): arguments: ["src/main/resources/EmployeeDetails.txt"]
+2020-01-10 14:38:15,243 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.util.FileUtils.getFileContent(String) : Response: ["ID,Name,Domain,Designation.Company,Date","4,Chiru,Java,Manager,Infosys, 10-11-2018","2,Balayya,C++,Manager, Tech Mahindra, 11-01-2016","1,Venky,AI,Sr.Architect, Apple, 09-03-2017","3,Nag,AWS,Programmer, Google, 05-05-2013"]
+2020-01-10 14:38:15,277 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees() : Response: [{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"}]
+2020-01-10 14:38:15,316 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees() : Response: [{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}]
+2020-01-10 14:38:15,317 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.controller.EmployeeSearchController.fetchemp() : Response: [{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}]
+2020-01-10 14:45:48,184 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 31229 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 14:45:48,186 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 14:45:48,186 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:45:49,738 INFO com.apple.employee.search.EmployeeSearchApplication [main] Started EmployeeSearchApplication in 1.768 seconds (JVM running for 2.732)
+2020-01-10 14:45:49,937 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.controller.EmployeeSearchController.fetchemp(): arguments: []
+2020-01-10 14:45:49,942 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees(): arguments: []
+2020-01-10 14:45:49,946 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees(): arguments: []
+2020-01-10 14:45:49,950 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.util.FileUtils.getFileContent(String): arguments: ["src/main/resources/EmployeeDetails.txt"]
+2020-01-10 14:45:49,957 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.util.FileUtils.getFileContent(String) : Response: ["ID,Name,Domain,Designation.Company,Date","4,Chiru,Java,Manager,Infosys, 10-11-2018","2,Balayya,C++,Manager, Tech Mahindra, 11-01-2016","1,Venky,AI,Sr.Architect, Apple, 09-03-2017","3,Nag,AWS,Programmer, Google, 05-05-2013"]
+2020-01-10 14:45:49,978 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees() : Response: [{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"}]
+2020-01-10 14:45:50,017 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees() : Response: [{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}]
+2020-01-10 14:45:50,018 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.controller.EmployeeSearchController.fetchemp() : Response: [{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}]
+2020-01-10 16:01:44,840 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32057 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:01:44,842 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:01:44,842 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:01:45,752 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanMapper' defined in file [/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes/com/apple/employee/search/config/BeanMapper.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$cb369d9c]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.apple.employee.search.EmployeeSearchApplication.main(EmployeeSearchApplication.java:17)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$cb369d9c]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 17 common frames omitted
+Caused by: ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:338)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:311)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.field(ClassMapBuilder.java:249)
+	at com.apple.employee.search.config.BeanMapper.afterPropertiesSet(BeanMapper.java:43)
+	at com.apple.employee.search.config.BeanMapper.<init>(BeanMapper.java:36)
+	at com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$cb369d9c.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 19 common frames omitted
+Caused by: ma.glasnost.orika.PropertyNotFoundException: id does not belong to Employee
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:710)
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:638)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.resolveProperty(ClassMapBuilder.java:873)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:78)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:61)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:328)
+	... 29 common frames omitted
+2020-01-10 16:02:23,114 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32068 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:02:23,116 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:02:23,116 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:02:24,060 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanMapper' defined in file [/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes/com/apple/employee/search/config/BeanMapper.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$3906ec36]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.apple.employee.search.EmployeeSearchApplication.main(EmployeeSearchApplication.java:17)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$3906ec36]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 17 common frames omitted
+Caused by: ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:338)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:311)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.field(ClassMapBuilder.java:249)
+	at com.apple.employee.search.config.BeanMapper.afterPropertiesSet(BeanMapper.java:43)
+	at com.apple.employee.search.config.BeanMapper.<init>(BeanMapper.java:36)
+	at com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$3906ec36.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 19 common frames omitted
+Caused by: ma.glasnost.orika.PropertyNotFoundException: id does not belong to Employee
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:710)
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:638)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.resolveProperty(ClassMapBuilder.java:873)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:78)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:61)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:328)
+	... 29 common frames omitted
+2020-01-10 16:03:16,115 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32077 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:03:16,118 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:03:16,118 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:03:17,303 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanMapper' defined in file [/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes/com/apple/employee/search/config/BeanMapper.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$155aeba]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.apple.employee.search.EmployeeSearchApplication.main(EmployeeSearchApplication.java:17)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$155aeba]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 17 common frames omitted
+Caused by: ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:338)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:311)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.field(ClassMapBuilder.java:249)
+	at com.apple.employee.search.config.BeanMapper.afterPropertiesSet(BeanMapper.java:43)
+	at com.apple.employee.search.config.BeanMapper.<init>(BeanMapper.java:36)
+	at com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$155aeba.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 19 common frames omitted
+Caused by: ma.glasnost.orika.PropertyNotFoundException: id does not belong to Employee
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:710)
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:638)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.resolveProperty(ClassMapBuilder.java:873)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:78)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:61)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:328)
+	... 29 common frames omitted
+2020-01-10 16:04:26,343 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32088 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:04:26,346 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:04:26,346 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:04:27,463 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanMapper' defined in file [/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes/com/apple/employee/search/config/BeanMapper.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$7e49d232]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.apple.employee.search.EmployeeSearchApplication.main(EmployeeSearchApplication.java:17)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$7e49d232]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 17 common frames omitted
+Caused by: ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:338)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:311)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.field(ClassMapBuilder.java:249)
+	at com.apple.employee.search.config.BeanMapper.afterPropertiesSet(BeanMapper.java:43)
+	at com.apple.employee.search.config.BeanMapper.<init>(BeanMapper.java:36)
+	at com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$7e49d232.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 19 common frames omitted
+Caused by: ma.glasnost.orika.PropertyNotFoundException: id does not belong to Employee
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:710)
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:638)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.resolveProperty(ClassMapBuilder.java:873)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:78)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:61)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:328)
+	... 29 common frames omitted
+2020-01-10 16:05:15,398 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32098 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:05:15,401 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:05:15,401 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:05:16,498 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanMapper' defined in file [/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes/com/apple/employee/search/config/BeanMapper.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$70ad28fe]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.apple.employee.search.EmployeeSearchApplication.main(EmployeeSearchApplication.java:17)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$70ad28fe]: Constructor threw exception; nested exception is ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 17 common frames omitted
+Caused by: ma.glasnost.orika.MappingException: ClassMapBuilder.map(Employee, EmployeeDTO).field('id', 'tagID'): Error: id does not belong to Employee
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:338)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:311)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.field(ClassMapBuilder.java:249)
+	at com.apple.employee.search.config.BeanMapper.afterPropertiesSet(BeanMapper.java:43)
+	at com.apple.employee.search.config.BeanMapper.<init>(BeanMapper.java:36)
+	at com.apple.employee.search.config.BeanMapper$$EnhancerBySpringCGLIB$$70ad28fe.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 19 common frames omitted
+Caused by: ma.glasnost.orika.PropertyNotFoundException: id does not belong to Employee
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:710)
+	at ma.glasnost.orika.property.PropertyResolver.getProperty(PropertyResolver.java:638)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.resolveProperty(ClassMapBuilder.java:873)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:78)
+	at ma.glasnost.orika.metadata.FieldMapBuilder.<init>(FieldMapBuilder.java:61)
+	at ma.glasnost.orika.metadata.ClassMapBuilder.fieldMap(ClassMapBuilder.java:328)
+	... 29 common frames omitted
+2020-01-10 16:07:28,893 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 32117 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service-trail)
+2020-01-10 16:07:28,896 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-01-10 16:07:28,897 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 16:07:30,600 INFO com.apple.employee.search.EmployeeSearchApplication [main] Started EmployeeSearchApplication in 1.961 seconds (JVM running for 2.894)
+2020-01-10 16:07:37,672 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : EmployeeDTO com.apple.employee.search.controller.EmployeeSearchController.fetchempByID(Long): arguments: [1]
+2020-01-10 16:07:37,701 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : EmployeeDTO com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployeeById(Long): arguments: [1]
+2020-01-10 16:07:37,709 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : Employee com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployeeById(Long): arguments: [1]
+2020-01-10 16:07:37,713 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method : List com.apple.employee.search.util.FileUtils.getFileContent(String): arguments: ["src/main/resources/EmployeeDetails.txt"]
+2020-01-10 16:07:37,719 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : List com.apple.employee.search.util.FileUtils.getFileContent(String) : Response: ["ID,Name,Domain,Designation.Company,Date","4,Chiru,Java,Manager,Infosys, 10-11-2018","2,Balayya,C++,Manager, Tech Mahindra, 11-01-2016","1,Venky,AI,Sr.Architect, Apple, 09-03-2017","3,Nag,AWS,Programmer, Google, 05-05-2013"]
+2020-01-10 16:07:37,731 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : Employee com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployeeById(Long) : Response: {"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
+2020-01-10 16:07:37,735 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : EmployeeDTO com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployeeById(Long) : Response: {"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
+2020-01-10 16:07:37,736 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-1] Method Name : EmployeeDTO com.apple.employee.search.controller.EmployeeSearchController.fetchempByID(Long) : Response: {"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
+2020-01-10 16:08:12,383 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method : List com.apple.employee.search.controller.EmployeeSearchController.fetchemp(): arguments: []
+2020-01-10 16:08:12,384 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees(): arguments: []
+2020-01-10 16:08:22,802 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees(): arguments: []
+2020-01-10 16:08:22,810 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method : List com.apple.employee.search.util.FileUtils.getFileContent(String): arguments: ["src/main/resources/EmployeeDetails.txt"]
+2020-01-10 16:08:22,821 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method Name : List com.apple.employee.search.util.FileUtils.getFileContent(String) : Response: ["ID,Name,Domain,Designation.Company,Date","4,Chiru,Java,Manager,Infosys, 10-11-2018","2,Balayya,C++,Manager, Tech Mahindra, 11-01-2016","1,Venky,AI,Sr.Architect, Apple, 09-03-2017","3,Nag,AWS,Programmer, Google, 05-05-2013"]
+2020-01-10 16:08:22,886 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method Name : List com.apple.employee.search.dao.impl.EmployeeDaoImpl.fetchEmployees() : Response: [{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"}]
+2020-01-10 16:08:33,234 INFO com.apple.employee.search.logger.EmployeeServiceLogger [http-nio-8585-exec-3] Method Name : List com.apple.employee.search.service.impl.EmployeeSearchServiceImpl.fetchEmployees() : Response: [{"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"},{"employeeID":4,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"},{"employeeID":3,"employeeName":"Nag","employeePracticeArea":"AWS","employeeDesignation":"Programmer","employeeCompanyInfo":" Google"},{"employeeID":1,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}]

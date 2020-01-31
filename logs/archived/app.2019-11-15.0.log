@@ -1,0 +1,102 @@
+2019-11-15 16:26:36,154 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [2]
+2019-11-15 16:26:36,532 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [2]
+2019-11-15 16:26:36,533 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [2]
+2019-11-15 16:26:36,533 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:26:36,712 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:26:37,202 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:26:37,311 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:26:37,311 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-3] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:26:39,043 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [1]
+2019-11-15 16:26:39,044 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [1]
+2019-11-15 16:26:39,045 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [1]
+2019-11-15 16:26:39,045 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:26:39,046 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:26:39,047 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:26:39,047 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:26:39,048 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:27:00,479 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [6]
+2019-11-15 16:27:00,621 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [6]
+2019-11-15 16:27:00,623 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [6]
+2019-11-15 16:27:00,623 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:27:00,623 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:27:00,624 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: null
+2019-11-15 16:42:41,799 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 10535 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service)
+2019-11-15 16:42:41,867 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-15 16:42:41,867 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2019-11-15 16:42:43,052 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$247e1b85 : dozerBeanMapper() : arguments: []
+2019-11-15 16:42:43,113 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$247e1b85 : dozerBeanMapper() : Response: {"mappingFiles":[],"customConverters":[],"eventListeners":[],"customConvertersWithId":{},"customFieldMapper":null,"mappingMetadata":{"classMappings":[]}}
+2019-11-15 16:42:43,444 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-11-15 16:43:14,053 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 10546 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service)
+2019-11-15 16:43:14,055 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-15 16:43:14,056 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2019-11-15 16:43:14,119 INFO com.apple.employee.search.EmployeeSearchApplication [main] Starting EmployeeSearchApplication on BLRJPT3270D with PID 10547 (/Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service/target/classes started by abdul.rahimanshaik in /Users/abdul.rahimanshaik/eclipse-workspace-practice/employee-service)
+2019-11-15 16:43:14,123 DEBUG com.apple.employee.search.EmployeeSearchApplication [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-15 16:43:14,123 INFO com.apple.employee.search.EmployeeSearchApplication [main] No active profile set, falling back to default profiles: default
+2019-11-15 16:43:15,823 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$f316d73 : dozerBeanMapper() : arguments: []
+2019-11-15 16:43:16,139 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$f316d73 : dozerBeanMapper() : Response: {"mappingFiles":[],"customConverters":[],"eventListeners":[],"customConvertersWithId":{},"customFieldMapper":null,"mappingMetadata":{"classMappings":[]}}
+2019-11-15 16:43:16,162 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$371b0f6a : dozerBeanMapper() : arguments: []
+2019-11-15 16:43:16,295 INFO com.apple.employee.search.advice.LoggingAdvice [main] class com.apple.employee.search.config.EmployeeSearchConfig$$EnhancerBySpringCGLIB$$371b0f6a : dozerBeanMapper() : Response: {"mappingFiles":[],"customConverters":[],"eventListeners":[],"customConvertersWithId":{},"customFieldMapper":null,"mappingMetadata":{"classMappings":[]}}
+2019-11-15 16:43:16,872 INFO com.apple.employee.search.EmployeeSearchApplication [main] Started EmployeeSearchApplication in 3.672 seconds (JVM running for 4.492)
+2019-11-15 16:43:17,549 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-11-15 16:43:24,075 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [1]
+2019-11-15 16:43:24,078 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [1]
+2019-11-15 16:43:24,082 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [1]
+2019-11-15 16:43:24,085 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:43:24,088 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:43:24,090 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:43:24,152 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:43:24,152 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-1] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : Response: {"employeeID":1,"employeeName":"Chiru","employeePracticeArea":"Java","employeeDesignation":"Manager","employeeCompanyInfo":"Infosys"}
+2019-11-15 16:43:28,475 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [2]
+2019-11-15 16:43:28,476 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [2]
+2019-11-15 16:43:28,477 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [2]
+2019-11-15 16:43:28,477 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:43:28,477 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:43:28,479 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:43:28,481 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:43:28,481 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-2] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : Response: {"employeeID":2,"employeeName":"Balayya","employeePracticeArea":"C++","employeeDesignation":"Manager","employeeCompanyInfo":" Tech Mahindra"}
+2019-11-15 16:43:33,193 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [7]
+2019-11-15 16:43:33,193 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [7]
+2019-11-15 16:43:33,194 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [7]
+2019-11-15 16:43:33,194 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:43:33,195 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:43:33,195 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-4] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: null
+2019-11-15 16:45:49,408 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [7]
+2019-11-15 16:45:49,431 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [7]
+2019-11-15 16:45:49,432 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [7]
+2019-11-15 16:45:49,432 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:45:49,432 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:45:49,433 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-6] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: null
+2019-11-15 16:45:54,498 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : arguments: [3]
+2019-11-15 16:45:54,499 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : arguments: [3]
+2019-11-15 16:45:54,499 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : arguments: [3]
+2019-11-15 16:45:54,500 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.util.FileUtils : getFileContent() : arguments: ["src/main/resources/EmployeeDetails.txt"]
+2019-11-15 16:45:54,500 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.util.FileUtils : getFileContent() : Response: ["ID,Name,Domain,Designation.Company","1,Chiru,Java,Manager,Infosys","2,Balayya,C++,Manager, Tech Mahindra","3,Venky,AI,Sr.Architect, Apple","4,Nag,AWS,Programmer, Google"]
+2019-11-15 16:45:54,501 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.dao.impl.EmployeeDaoImpl : fetchEmployeeById() : Response: {"employeeID":3,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
+2019-11-15 16:45:54,502 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.service.impl.EmployeeSearchServiceImpl : fetchEmployeeById() : Response: {"employeeID":3,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
+2019-11-15 16:45:54,502 INFO com.apple.employee.search.advice.LoggingAdvice [http-nio-8080-exec-8] class com.apple.employee.search.controller.EmployeeSearchController : fetchempByID() : Response: {"employeeID":3,"employeeName":"Venky","employeePracticeArea":"AI","employeeDesignation":"Sr.Architect","employeeCompanyInfo":" Apple"}
