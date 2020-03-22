@@ -6,12 +6,20 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
 import com.employee.search.annotations.Logging;
 import com.employee.search.config.BeanMapper;
+import com.employee.search.constants.EmployeeSearchConstants;
 import com.employee.search.dao.EmployeeDao;
 import com.employee.search.dto.EmployeeDTO;
 import com.employee.search.exception.EmployeeNotfoundException;
@@ -28,6 +36,10 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService {
 	private EmployeeDao employeeDao;
 	
 	private BeanMapper dozerBeanMapper;
+	
+	@Autowired
+    private JavaMailSender javaMailSender;
+	
 	
 	@Autowired
 	public EmployeeSearchServiceImpl(EmployeeDao employeeDao, BeanMapper dozerBeanMapper) {
@@ -58,6 +70,13 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService {
 			throw new EmployeeNotfoundException("Employee Details Not Available for iEmployeeID : "+iEmployeeID);
 		}
 		
+		//sendEmail();
+//		try {
+//			sendEmailWithAttachment();
+//		} catch (MessagingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		return aEmployeeDTO;
 	}
 	
@@ -88,5 +107,46 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService {
 	private EmployeeDTO convertToEmployeeDTO(Employee emp) {
 		return dozerBeanMapper.map(emp, EmployeeDTO.class);
 	}
+	
+	/*
+	 * void sendEmail() {
+	 * 
+	 * SimpleMailMessage msg = new SimpleMailMessage();
+	 * msg.setTo("iamshaiksha2019@gmail.com", "jayasreecherukunuru@gmail.com",
+	 * "to_3@yahoo.com");
+	 * 
+	 * msg.setSubject("Hi"); msg.setText("How are you doing??");
+	 * 
+	 * javaMailSender.send(msg);
+	 * 
+	 * }
+	 */
+	
+
+	void sendEmailWithAttachment() throws MessagingException, IOException {
+
+        MimeMessage msg = javaMailSender.createMimeMessage();
+
+        // true = multipart message
+        MimeMessageHelper helper = new MimeMessageHelper(msg, true);
+		
+        helper.setTo("iamshaiksha2019@gmail.com");
+
+        helper.setSubject("Passpot size-Photo");
+
+        // default = text/plain
+        //helper.setText("Check attachment for image!");
+
+        // true = text/html
+        helper.setText("<h1><marquee>Check photo!</marquee></h1>", true);
+
+		// hard coded a file path
+        //FileSystemResource file = new FileSystemResource(new File("path/android.png"));
+
+        helper.addAttachment("download.png", new ClassPathResource("download.png"));
+
+        javaMailSender.send(msg);
+
+    }
 
 }

@@ -3,7 +3,6 @@ package com.employee.search.config;
 import java.util.Collections;
 import java.util.List;
 
-import org.junit.platform.commons.util.Preconditions;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Configuration;
 
